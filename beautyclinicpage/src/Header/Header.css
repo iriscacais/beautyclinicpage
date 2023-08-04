@@ -1,0 +1,26 @@
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header li {
+    display: flex;
+    font-size: 25px;
+    list-style: none;
+    margin-right: 3%;
+}
+
+.header a {
+    color: #040226;
+    text-decoration: none;
+    }
+    
+.header a:hover {
+    color: #ffffff;
+    
+    }
+
+.header {
+    background-color: pink;
+    width: 100%;
+}
