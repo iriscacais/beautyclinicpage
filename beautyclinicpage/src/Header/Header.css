@@ -11,16 +11,20 @@
 }
 
 .header a {
-    color: #040226;
+    color: #ffffff;
     text-decoration: none;
     }
     
 .header a:hover {
-    color: #ffffff;
+    color: #D15E95;
     
     }
 
 .header {
-    background-color: pink;
+    background-color: #D15E95;
     width: 100%;
+}
+
+.divHeader {
+    margin-right: 10%;
 }
