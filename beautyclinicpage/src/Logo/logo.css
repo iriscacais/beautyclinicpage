@@ -3,23 +3,15 @@
     
 }
 .divLogo {
-    margin-left: 43%;
+    margin-left: 5%;
     width: 15%;
     
 }
 
-h2 {
-    color: rgb(77, 72, 72);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    text-align: center;
-}
-
 @media screen and (max-width: 1024px) {
-    h2 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 25px;
-        text-align: center;
+    .divLogo {
+    display: flex;
+    justify-content: center;
+        
     }
-    
 }

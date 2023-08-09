@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './Logotipo.png';
+import logo from './logo.png';
 import './logo.css';
 
 class Logo extends React.Component {
@@ -9,9 +9,6 @@ class Logo extends React.Component {
             <section>
                 <div className="divLogo">
                     <img src={logo} className="logo" alt="logo da clínica de estética"></img>
-                </div>
-                <div>
-                    <h2>A clínica de estética</h2>
                 </div>
             </section>
         )

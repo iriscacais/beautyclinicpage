@@ -1,14 +1,13 @@
 import Header from './Header/Header';
-import Logo from './Logo/Logo';
-import Navbar from './Navbar/Navbar';
+import Banner from './Banner/Banner';
+
 import './App.css';
 
 function App() {
   return (
     <>
       <Header/>
-      <Logo/>
-      <Navbar/>
+      <Banner/>
     </>
   );
 }

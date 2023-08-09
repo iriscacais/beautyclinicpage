@@ -2,22 +2,35 @@
     background-color: aliceblue;
 }
 
-hr {
-    color: rgb(54, 51, 51);
-}
-
 .navbar {
     display: flex;
     justify-content: space-around;
+    margin-top: 0;
+    margin-left: 10%;
+    
 }
+
 .navbar li {
     color: 77, 72, 72;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 16px;
+    margin-right: 10%;
 }
 
 .navbar li :hover {
     color: #D15E95;
+}
+
+.navbar-toggler{
+    border: 0;
+    padding: 0;
+}
+
+
+.container {
+    padding: 0;
+    margin: 0;
+    width: 50%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,6 +43,10 @@ hr {
         color: 77, 72, 72;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 16px;
+    }
+    .navbar {
+        margin-left: 0;
+        
     }
     
 }
