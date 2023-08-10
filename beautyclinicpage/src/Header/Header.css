@@ -1,0 +1,53 @@
+.header ul {
+    display: flex;
+    height: 10%;
+    margin-top: 1%;
+    padding: 0;
+
+}
+
+.header li {
+    display: flex;
+    font-size: 25px;
+    list-style: none;
+    margin-right: 30%;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+.header a:hover {
+    color: #D15E95;
+    
+    }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D15E95;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #D15E95;
+        width: 100%;
+    }
+    
+    .header ul {
+        justify-content: flex-end;
+        margin: 1%;
+    }
+    .header li {
+        display: flex;
+        font-size: 25px;
+        list-style: none;
+        margin-right: 28%;
+    }
+
+}
