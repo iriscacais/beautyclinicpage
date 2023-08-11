@@ -6,7 +6,7 @@ class About extends React.Component {
   
     render() {
         return (
-            <section className="aboutSection">
+            <section className="aboutSection" id="about">
                 <div className="aboutImages">
                     <img src={aboutImage} className="aboutImage" alt="profissional aplicanco máscara de tratamento, e difusores e toalhas"/>
                 </div>

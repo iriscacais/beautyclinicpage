@@ -4,7 +4,6 @@ import procedimento from './1.png';
 import procedimento2 from  './3.png';
 import './Banner.css';
 
-
 class Banner extends React.Component {
   
     render() {
@@ -12,13 +11,17 @@ class Banner extends React.Component {
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={sala} class="d-block w-100" alt="sala de estética com uma maca de atendimento e decoraçoes"/>
+      <img src={procedimento2} class="d-block w-100" alt="sala de estética com uma maca de atendimento e decoraçoes"/>
+      <div className="carousel-caption divFirstCarousel">
+        <p className="pBanner">A clínica de estética</p>
+        <h1 className="firstCarousel">Toda beleza que existe em você.</h1>
+      </div>
     </div>
     <div class="carousel-item">
       <img src={procedimento} class="d-block w-100" alt="aplicaçao de procedimento toxina botulinica"/>
     </div>
     <div class="carousel-item">
-      <img src={procedimento2} class="d-block w-100" alt="aplicacao de mascara facial"/>
+      <img src={sala} class="d-block w-100" alt="aplicacao de mascara facial"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
