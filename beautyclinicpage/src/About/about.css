@@ -9,12 +9,14 @@
     border: none;
 }
 
-h2 {
+.card-title {
+    color: rgb(157, 129, 137);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
 .aboutText {
+    color: rgb(157, 129, 137);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-align: justify;
@@ -22,16 +24,17 @@ h2 {
 }
 
 .btn {
-    background-color: #D15E95;
-    border-color: #D15E95;
-    box-shadow: 1px 2px 5px #000000;
+    color: rgb(white);
+    background-color: rgb(244, 172, 183);
+    border-color: rgb(244, 172, 183);
+    box-shadow: 1px 2px 5px #9f9f9f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     margin-top: 3%;
 
 }
 .btn:hover {
-    color: #D15E95;
+    color: rgb(157, 129, 137);
     background-color: white;
     border-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
