@@ -15,30 +15,27 @@
 }
 
 .header a {
-    color: #ffffff;
+    color: rgb(157, 129, 137);
     text-decoration: none;
     }
     
 .header a:hover {
-    color: #D15E95;
+    color: rgb(255, 229, 217);
     
     }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #D15E95;
+    background-color: rgb(255, 202, 212);
     width: 100%;
+    /* position: fixed;
+    top:0; */
 }
 
 
 @media screen and (max-width: 1024px) {
-    .header {
-        display: flex;
-        justify-content: space-between;
-        background-color: #D15E95;
-        width: 100%;
-    }
+
     
     .header ul {
         justify-content: flex-end;

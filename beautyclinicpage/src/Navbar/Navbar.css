@@ -18,7 +18,7 @@
 }
 
 .navbar li :hover {
-    color: #D15E95;
+    color: rgb(255, 229, 217);
 }
 
 .navbar-toggler{

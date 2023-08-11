@@ -1,8 +1,27 @@
 /* .carousel-inner{
     height: 46em;
-}
-@media screen and (max-width: 1024px) {
-    .carousel-inner{
-        height: 100em;
-    }
 } */
+
+
+.firstCarousel {
+    color: rgb(157, 129, 137);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 40%;
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.pBanner {
+    color: rgb(157, 129, 137);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-left: 15%;
+    text-align: left;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {}
