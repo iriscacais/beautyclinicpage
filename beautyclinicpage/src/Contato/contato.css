@@ -1,9 +1,8 @@
 .sectionContato {
     display: flex;
-    margin: 2%;
+
     justify-content: space-around;
 }
-
 .sectionContato p{
     color: rgb(157, 129, 137);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -50,12 +49,12 @@
 
     .sectionContato p{
         text-align: center;
-        margin-right: 2%;
         
     }
 }
 
-/* @media screen and (max-width: 557px) {
+ @media screen and (max-width: 557px) {
     .sectionContato p{
         font-size: 20px;       
-    } */
+    }
+}
