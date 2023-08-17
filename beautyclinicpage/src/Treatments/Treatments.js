@@ -11,7 +11,7 @@ class Treatments extends React.Component {
   
     render() {
         return (
-            <section className="treatmentsSection">
+            <section className="treatmentsSection" id="procedimemtos">
                 <h2 class="card-title">Conheça os nossos tratamentos</h2>
                 <div class="container row mx-auto divTreat">
                     <div class="col-12 col-md-6 col-xxl-4 ">

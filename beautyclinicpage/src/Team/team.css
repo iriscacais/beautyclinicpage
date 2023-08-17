@@ -1,0 +1,63 @@
+.divTeam {
+    background-color: rgb(157, 129, 137);
+}
+
+.divTeam {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.teamText {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.teamText h4 {
+    color: rgb(255, 229, 217);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.teamText p {
+    color: rgb(255, 229, 217);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 60%;
+}
+
+.teamPicture {
+    margin-left: 10%;
+    width: 30%;
+}
+
+
+@media screen and (max-width: 1334px) {
+    .divTeam {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teamText {
+        margin-top: 2%;
+        padding-top: 0;
+        padding-bottom: 3%;  
+    }
+
+    .teamPicture {
+        margin-left: 0;
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .teamText p {
+        width: 90%;  
+    }
+}

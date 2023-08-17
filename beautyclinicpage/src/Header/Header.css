@@ -15,19 +15,19 @@
 }
 
 .header a {
-    color: rgb(157, 129, 137);
+    color: rgb(255, 229, 217);
     text-decoration: none;
     }
     
 .header a:hover {
-    color: rgb(255, 229, 217);
+    color: rgb(244, 172, 183);
     
     }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(255, 202, 212);
+    background-color: rgb(157, 129, 137);
     width: 100%;
     /* position: fixed;
     top:0; */

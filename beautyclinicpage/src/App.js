@@ -2,6 +2,7 @@ import Header from './Header/Header';
 import Banner from './Banner/Banner';
 import About from './About/About';
 import Treatments from './Treatments/Treatments';
+import Team from './Team/Team';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Banner/>
       <About/>
       <Treatments/>
+      <Team/>
     </>
   );
 }

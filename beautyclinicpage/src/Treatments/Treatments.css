@@ -1,4 +1,6 @@
-/* .divTreat {
-    width: 68%;
+.treatmentsSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6%;
 
-} */
+}
