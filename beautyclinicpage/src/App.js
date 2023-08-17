@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import About from './About/About';
 import Treatments from './Treatments/Treatments';
 import Team from './Team/Team';
+import Contato from './Contato/Contato';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Treatments/>
       <Team/>
+      <Contato/>
     </>
   );
 }

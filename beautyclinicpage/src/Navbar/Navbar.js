@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                         <a class="nav-link" href="#profissionais">Profissionais</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
