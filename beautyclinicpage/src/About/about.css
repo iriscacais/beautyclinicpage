@@ -26,6 +26,7 @@
 .btn {
     color: rgb(white);
     background-color: rgb(244, 172, 183);
+    border-radius: 0;
     border-color: rgb(244, 172, 183);
     box-shadow: 1px 2px 5px #9f9f9f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
