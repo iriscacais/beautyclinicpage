@@ -4,6 +4,7 @@ import About from './About/About';
 import Treatments from './Treatments/Treatments';
 import Team from './Team/Team';
 import Contato from './Contato/Contato';
+import Footer from './Footer/Footer';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Treatments/>
       <Team/>
       <Contato/>
+      <Footer/>
     </>
   );
 }

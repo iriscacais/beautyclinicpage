@@ -1,0 +1,23 @@
+.sectionFooter {
+    background-color: rgb(157, 129, 137);
+    display: flex;
+    margin-top: 6%;
+}
+
+.sectionFooter a {
+    color: rgb(255, 229, 217);
+    text-decoration: none;
+}
+
+.sectionFooter a:hover {
+    color: rgb(244, 172, 183);
+}
+
+.logoFooter {
+    width: 200px;
+}
+
+.divFooter {
+    display: flex;
+    flex-direction: column;
+}

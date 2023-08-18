@@ -33,6 +33,10 @@
     width: 50%;
 }
 
+.logo {
+    width: 30px;
+}
+
 @media screen and (max-width: 1024px) {
     h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;

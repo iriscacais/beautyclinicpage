@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css';
+import logo from './logo2.png';
 
 class Navbar extends React.Component {
   
@@ -15,7 +16,7 @@ class Navbar extends React.Component {
             <div class="collapse navbar-collapse navbar" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#"><img src={logo} className="logo" alt="logo"/></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Sobre</a>
