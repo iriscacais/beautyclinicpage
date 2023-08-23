@@ -1,6 +1,34 @@
-.treatmentsSection {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 6%;
+.divTreat {
+    margin-top: 3%;
+    align-items: center;
+}
 
+.treatmentsSection {
+    margin-bottom: 5%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .card {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+   
+    .card-body {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .card-body {
+        width: 223%;
+    }
 }
