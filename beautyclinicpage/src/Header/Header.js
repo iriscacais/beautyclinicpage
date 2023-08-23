@@ -7,7 +7,7 @@ class Header extends React.Component {
   
     render() {
         return (
-          <section className="header">
+          <section className="header position-fixed">
             <Navbar/>
             <ul>
               <li>
