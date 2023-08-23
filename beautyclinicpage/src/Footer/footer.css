@@ -1,11 +1,15 @@
 .sectionFooter {
     background-color: rgb(157, 129, 137);
     display: flex;
+    justify-content: space-around;
     margin-top: 6%;
+    flex-wrap: wrap;
 }
 
 .sectionFooter a {
     color: rgb(255, 229, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -15,9 +19,58 @@
 
 .logoFooter {
     width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .divFooter {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    margin-right: 5%;
+}
+
+h4 {
+    color: rgb(255, 229, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .divFooter:last-child {
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .sectionFooter {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .sectionFooter a {
+        text-align: center;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .divFooter:last-child {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    
+    .divFooter:nth-last-child(2) {
+        margin-top: 5%;
+    }
+
+    .socialMedia a {
+        justify-content: center;
+    }
 }
