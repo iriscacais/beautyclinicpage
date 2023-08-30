@@ -89,7 +89,23 @@
 
 @media screen and (max-width: 340px) {
     .btn-secondary {
-        font-size: 12px !important;
+        font-size: 11px !important;
+    }
+
+    .carroselB {
+        padding-top: 57px;
+    }
+    .carousel-caption {
+        left: 54%;
+    }
+    
+} 
+@media screen and (max-width: 300px) {
+    .carroselB {
+        padding-top: 55px;
+    }
+    .carousel-caption {
+        left: 54%;
     }
     
 } 
