@@ -1,23 +1,13 @@
-import Header from './Header/Header';
-import Banner from './Banner/Banner';
-import About from './About/About';
-import Treatments from './Treatments/Treatments';
-import Team from './Team/Team';
-import Contato from './Contato/Contato';
-import Footer from './Footer/Footer';
+
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from './Routes/Routes';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Banner/>
-      <About/>
-      <Treatments/>
-      <Team/>
-      <Contato/>
-      <Footer/>
-    </>
+    <Router>
+      <Routes/>
+    </Router>
   );
 }
 

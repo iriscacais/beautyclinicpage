@@ -5,6 +5,7 @@
 .divTeam {
     display: flex;
     margin-bottom: 10%;
+    padding-top: 5%;
 }
 
 .teamText {
