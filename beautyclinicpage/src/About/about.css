@@ -19,28 +19,28 @@
     margin-top: 3%;
 }
 
-.btn {
+.btn-primary {
     color: rgb(white);
-    background-color: rgb(244, 172, 183);
+    background-color: #e9c8b8;
     border-radius: 0;
-    border-color: rgb(244, 172, 183);
+    border-color: #ffe5d9;
     box-shadow: 1px 2px 5px #9f9f9f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 23px;
     margin-top: 3%;
 
 }
-.btn:hover {
+.btn-primary:hover {
     color: rgb(157, 129, 137);
     background-color: white;
     border-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 3%;
 }
-.btn:active {
-    background-color: #D15E95;
-    border-color: white;
+.btn-primary:active {
+    background-color: #e9c8b8 !important;
+    border-color: #ffe5d9 !important;
 }
 
 .card-body{
@@ -72,6 +72,14 @@
         margin-right: 30%;
         margin-left: 30%;
         align-items: flex-start;
+    }
+    .btn {
+        font-size: 20px;
+    
+    }
+    .btn-primary:hover {
+        font-size: 18px;
+
     }
 }
 

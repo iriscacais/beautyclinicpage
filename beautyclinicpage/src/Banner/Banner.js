@@ -1,27 +1,25 @@
 import React from "react";
-import sala from './2.png';
-import procedimento from './1.png';
-import procedimento2 from  './3.png';
+import procedimentoG from './1.png';
+import procedimento2G from  './2.png';
 import './Banner.css';
 
 class Banner extends React.Component {
   
     render() {
         return (
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade carroselB">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={procedimento2} class="d-block w-100" alt="sala de estética com uma maca de atendimento e decoraçoes"/>
-      <div className="carousel-caption divFirstCarousel">
-        <p className="pBanner">A clínica de estética</p>
-        <h1 className="firstCarousel">Toda beleza que existe em você.</h1>
-      </div>
+      <img src={procedimento2G} class="d-block w-100" alt="promocao peeling"/>
+      <div className="carousel-caption">
+        <a href="https://www.whatsapp.com/?lang=pt_BR" class="btn btn-secondary">Agende aqui</a>
+      </div> 
     </div>
     <div class="carousel-item">
-      <img src={procedimento} class="d-block w-100" alt="aplicaçao de procedimento toxina botulinica"/>
+      <img src={procedimentoG} class="d-block w-100" alt="clinica"/>
+      <div className="carousel-caption">
+      <a href="https://www.whatsapp.com/?lang=pt_BR" class="btn btn-secondary">Conheça mais!</a>
     </div>
-    <div class="carousel-item">
-      <img src={sala} class="d-block w-100" alt="aplicacao de mascara facial"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

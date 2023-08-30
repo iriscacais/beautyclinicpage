@@ -1,7 +1,6 @@
 import React from "react";
 import './Header.css';
 import Navbar from "../Navbar/Navbar";
-import Logo from "../Logo/Logo";
 
 class Header extends React.Component {
   
