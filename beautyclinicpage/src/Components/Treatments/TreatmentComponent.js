@@ -5,7 +5,7 @@ class TreatmentComponent extends React.Component {
         const { name, picture, about, precautions } = this.props;
         return (
             <div>
-                <p>{ name }</p>
+                <p >{ name }</p>
                 <img src={ picture } alt={ name } />
                 <p>{ about }</p>
                 <p>{ precautions }</p>
