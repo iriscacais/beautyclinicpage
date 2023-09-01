@@ -1,15 +1,22 @@
 .sectionContato {
     display: flex;
-
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.sectionContato p{
+.invite {
+    color: rgb(157, 129, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-align: left;
+    margin-top: 2%;
+    
+}
+
+.contact {
     color: rgb(157, 129, 137);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
     text-align: justify;
-    margin-left: 10%;
-    
 }
 
 .sectionContato a{
@@ -22,6 +29,7 @@
 .divContato {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 30%;
 }
 

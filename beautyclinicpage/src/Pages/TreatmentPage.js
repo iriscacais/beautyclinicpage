@@ -1,11 +1,11 @@
-import TreatmentComponent from '../Components/Treatments/TreatmentComponent';
+import Treat from '../Components/Treatments/Treat';
 import Footer from '../Components/Footer/Footer';
 import React from 'react';
 
 function TreatmentPage() {
   return (
     <>
-      <TreatmentComponent/>
+      <Treat/>
       <Footer/>
     </>  
   );

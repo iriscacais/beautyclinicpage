@@ -16,7 +16,7 @@ class Navbar extends React.Component {
             <div class="collapse navbar-collapse navbar" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"><img src={logo} className="logo" alt="logo"/></a>
+                        <a class="nav-link" aria-current="page" href="#"><img src={logo} className="logo" alt="logo da clínica"/></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Sobre</a>

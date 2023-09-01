@@ -9,7 +9,7 @@ class Team extends React.Component {
     render() {
         return (
         <section className="" id="profissionais">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div className="divTeam">

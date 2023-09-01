@@ -1,7 +1,7 @@
 export const treatmentList = [
     {
       name: 'Bioestimulador de colágeno',
-      slug: 'bioestimulador-colageno',
+      slug: 'bioestimulador-de-colageno',
       picture: "https://i.pinimg.com/564x/08/91/0e/08910e3ce0b4b53732a2ef4e04f9f244.jpg",
       about:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -19,7 +19,7 @@ export const treatmentList = [
     },
     {
         name: 'Lipo de papada enzimática',
-        slug: 'lipo-papada-enzimatica',
+        slug: 'lipo-de-papada-enzimatica',
         picture: 'https://i.pinimg.com/564x/b8/b7/d8/b8b7d83dd4868bb016faac2b479b9d36.jpg',
         about:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
