@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Contato from '../Contato/Contato';
 import HeaderTreats from '../Header/HeaderTreats';
 import './Treat.css';
+import FooterTreat from '../Footer/FooterTreat';
 
 function Treat() {
   const params = useParams();
@@ -36,7 +37,7 @@ function Treat() {
             </div>
         </div>
         <Contato/>
-        <Footer/>
+        <FooterTreat/>
     </section>
   )
 }

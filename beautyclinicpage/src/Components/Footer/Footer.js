@@ -10,9 +10,9 @@ class Footer extends React.Component {
                     <img src={logo} className="logoFooter" alt="logo"/>
                     <div className="divFooter">
                         <h4>Mapa do site</h4>
-                        <a  href="">Sobre</a>
-                        <a  href="">Procedimentos</a>
-                        <a href="">Profissionais</a>
+                        <a  href="#about">Sobre</a>
+                        <a  href="#treatments">Procedimentos</a>
+                        <a href="#profissionais">Profissionais</a>
                     </div>
                     <div className="divFooter">
                         <h4>Fale conosco</h4>
