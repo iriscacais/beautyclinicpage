@@ -1,0 +1,35 @@
+.divTreat {
+    align-items: center;
+    margin-top: 3%;  
+}
+
+.treatmentsSection {
+    margin-bottom: 5%;
+    padding-top: 8%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .card {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+   
+    .card-body {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .card-body {
+        width: 223%;
+    }
+}

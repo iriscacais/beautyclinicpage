@@ -1,0 +1,78 @@
+.sectionFooter {
+    background-color: rgb(157, 129, 137);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6%;  
+}
+
+.sectionFooter a {
+    color: rgb(255, 229, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sectionFooter a:hover {
+    color: rgb(244, 172, 183);
+}
+
+.logoFooter {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 200px;
+}
+
+.divFooter {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+h4 {
+    color: rgb(255, 229, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .divFooter:last-child {
+        margin-bottom: 2%;
+        margin-left: 40%; 
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .sectionFooter {
+        align-items: center;
+        align-content: center;
+        flex-direction: column; 
+    }
+
+    .sectionFooter a {
+        text-align: center;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .divFooter:last-child {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    
+    .divFooter:nth-last-child(2) {
+        margin-top: 5%;
+    }
+
+    .socialMedia a {
+        justify-content: center;
+    }
+}

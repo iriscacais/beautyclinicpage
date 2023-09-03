@@ -1,16 +1,13 @@
-import Header from './Header/Header';
-import Banner from './Banner/Banner';
-import About from './About/About';
 
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from './Routes/Routes';
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Banner/>
-      <About/>
-    </>
+    <Router>
+      <Routes/>
+    </Router>
   );
 }
 

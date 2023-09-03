@@ -1,0 +1,67 @@
+.sectionContato {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.invite {
+    color: rgb(157, 129, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.contact {
+    color: rgb(157, 129, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.sectionContato a{
+    color: rgb(157, 129, 137);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.divContato {
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    width: 30%;
+}
+
+.map {
+    height:35%;
+    width:35%;   
+}
+
+@media screen and (max-width: 929px) {
+    .sectionContato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divContato {
+        align-self: center;
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    .map {
+        height:100%;
+        width:100%; 
+    }
+
+    .sectionContato p{
+        text-align: center;      
+    }
+}
+
+ @media screen and (max-width: 557px) {
+    .sectionContato p{
+        font-size: 20px;       
+    }
+}
