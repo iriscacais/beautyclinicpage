@@ -2,7 +2,7 @@
     "extends": ["airbnb", "prettier"],
     "parser": "@babel/eslint-parser",
     "parserOptions": {
-      "requireConfigFile": false,
+      "requireConfigFile": false
    
   },
     "plugins": ["react", "prettier"],
