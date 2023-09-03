@@ -2,15 +2,19 @@ import React from "react";
 import './Header.css';
 import logo from '../Navbar/logo.png';
 import './HeaderTreats.css'
-
-
+import {Link} from 'react-router-dom';
+import GoToTop from "../../Pages/GoToTop";
 
 class HeaderTreats extends React.Component {
   
     render() {
         return (
           <section className="header position-fixed">
-            <img src={logo} className="logoHeaderTreats" alt="logo da clínica"/>
+
+          <Link to={ `/` } className="logoHeaderTreats" id="home">
+             <img src={logo} className="logoHeaderTreats" alt="logo da clínica"/>   
+           </Link>
+            
             <ul>
               <li>
                 <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -32,7 +36,9 @@ class HeaderTreats extends React.Component {
                 </a>
               </li>
             </ul>
+            <GoToTop/>
           </section>
+            
         )
     }
 }

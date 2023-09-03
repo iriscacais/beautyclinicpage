@@ -7,7 +7,7 @@ class Banner extends React.Component {
   
     render() {
         return (
-            <div id="carouselExampleFade" class="carousel slide carousel-fade carroselB">
+            <div id="carouselExampleFade"  class="carousel slide carousel-fade carroselB">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <img src={procedimentoG} class="d-block w-100" alt="clinica"/>
