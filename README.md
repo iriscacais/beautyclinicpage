@@ -1,6 +1,9 @@
 # beautyClinicPage
 
-Um site para uma clínica de estética - front-end
+Um modelo de site para uma clínica de estética - front-end
 
-- react
-- bootstrap
+## Ferramentas
+  - react
+  - bootstrap
+
+
