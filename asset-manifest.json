@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iriscacais.github.io/beautyclinicpage/static/css/main.cdbb5cdd.css",
-    "main.js": "/iriscacais.github.io/beautyclinicpage/static/js/main.7241faf0.js",
+    "main.js": "/iriscacais.github.io/beautyclinicpage/static/js/main.55a335f4.js",
     "static/js/787.f111d4b6.chunk.js": "/iriscacais.github.io/beautyclinicpage/static/js/787.f111d4b6.chunk.js",
     "static/media/2.png": "/iriscacais.github.io/beautyclinicpage/static/media/2.7b288b0e3345e25ce5e6.png",
     "static/media/1.png": "/iriscacais.github.io/beautyclinicpage/static/media/1.589c8af3efc28a144041.png",
@@ -12,11 +12,11 @@
     "static/media/logo.png": "/iriscacais.github.io/beautyclinicpage/static/media/logo.c353bea5b589cde65121.png",
     "index.html": "/iriscacais.github.io/beautyclinicpage/index.html",
     "main.cdbb5cdd.css.map": "/iriscacais.github.io/beautyclinicpage/static/css/main.cdbb5cdd.css.map",
-    "main.7241faf0.js.map": "/iriscacais.github.io/beautyclinicpage/static/js/main.7241faf0.js.map",
+    "main.55a335f4.js.map": "/iriscacais.github.io/beautyclinicpage/static/js/main.55a335f4.js.map",
     "787.f111d4b6.chunk.js.map": "/iriscacais.github.io/beautyclinicpage/static/js/787.f111d4b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdbb5cdd.css",
-    "static/js/main.7241faf0.js"
+    "static/js/main.55a335f4.js"
   ]
 }
