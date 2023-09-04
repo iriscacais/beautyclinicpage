@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from '../Components/Header/Header';
 import Banner from '../Components/Banner/Banner';
 import About from '../Components/About/About';
@@ -6,7 +7,6 @@ import Team from '../Components/Team/Team';
 import Contato from '../Components/Contato/Contato';
 import Footer from '../Components/Footer/Footer';
 import GoToTop from './GoToTop';
-import React from 'react';
 
 function HomePage() {
   return (

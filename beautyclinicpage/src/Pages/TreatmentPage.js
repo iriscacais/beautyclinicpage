@@ -1,13 +1,11 @@
-import Treat from '../Components/Treatments/Treat';
-import FooterTreat from '../Components/Footer/FooterTreat';
 import React from 'react';
+import Treat from '../Components/Treatments/Treat';
 import GoToTop from './GoToTop';
 
 function TreatmentPage() {
   return (
     <>
       <Treat/>
-      {/* <FooterTreat/> */}
       <GoToTop/>
     </>  
   );

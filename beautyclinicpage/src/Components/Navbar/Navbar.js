@@ -2,33 +2,47 @@ import React from "react";
 import './Navbar.css';
 import logo from './logo2.png';
 
-class Navbar extends React.Component {
-  
-    render() {
+function Navbar() {
+
         return (
             <div className="divNav" id="home">
-                <nav class="navbar navbar-expand-lg bg-body-white" id="logo">
-                    <div class="container-fluid">
-
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon navbar-dark"></span>
+                <nav className="navbar navbar-expand-lg bg-body-white"
+                id="logo">
+                    <div className="container-fluid">
+                        <button className="navbar-toggler"
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavDropdown" 
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon navbar-dark"/>
                         </button>
-                        <div class="collapse navbar-collapse navbar" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#home"><img src={logo} className="logo" alt="logo da clínica"/></a>
+                        <div className="collapse navbar-collapse navbar" 
+                        id="navbarNavDropdown">
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <a className="nav-link" 
+                                    aria-current="page" 
+                                    href="#home">
+                                        <img src={logo} className="logo" 
+                                        alt="logo da clínica"/></a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">Sobre</a>
+                                <li className="nav-item">
+                                    <a className="nav-link"
+                                    href="#about">Sobre</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#treatments">Procedimentos</a>
+                                <li className="nav-item">
+                                    <a className="nav-link"
+                                    href="#treatments">Procedimentos</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#profissionais">Profissionais</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" 
+                                    href="#profissionais">Profissionais</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#contato">Contato</a>
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link" 
+                                    href="#contato">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -37,6 +51,6 @@ class Navbar extends React.Component {
             </div>
         )
     }
-}
+
 
 export default Navbar;
