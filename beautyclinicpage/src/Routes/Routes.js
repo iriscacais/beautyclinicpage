@@ -6,7 +6,7 @@ import Treat from '../Components/Treatments/Treat';
 function Routers() {
     return (
       <Routes basename={process.env.PUBLIC_URL}>
-        <Route path="/" element={ <HomePage/> } />
+        <Route path="/beautyclinicpage" element={ <HomePage/> } />
         <Route path="/procedimento/:procedimento" element={ <Treat/> } />
       </Routes>  
     );
