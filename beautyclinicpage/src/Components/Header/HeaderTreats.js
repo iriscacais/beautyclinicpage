@@ -9,7 +9,7 @@ function HeaderTreats() {
 
         return (
           <section className="header position-fixed">
-            <Link to= "/" className="logoHeaderTreats" id="home">
+            <Link to= "/beautyclinicpage" className="logoHeaderTreats" id="home">
               <img src={logo}
               className="logoHeaderTreats"
               alt="logo da clínica"/>   
