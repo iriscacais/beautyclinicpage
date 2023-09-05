@@ -9,7 +9,7 @@ function FooterTreat() {
                     <img src={logo} className="logoFooter" alt="logo"/>
                     <div className="divFooter">
                         <h4>Mapa do site</h4>
-                        <p> <Link to="/">Home</Link></p>
+                        <p> <Link to="/beautyclinicpage">Home</Link></p>
                     </div>
                     <div className="divFooter">
                         <h4>Fale conosco</h4>
